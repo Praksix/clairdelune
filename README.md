@@ -15,7 +15,7 @@ Technologies utilisées
 
     Backend : Java Spring (Spring Boot)
     Frontend : HTML / CSS / Thymeleaf 
-    Base de données : MySQL / PostgreSQL
+    Base de données : MySQL
     Outils de construction : Maven / Gradle
     Serveur d'application : Tomcat
     Sécurité : Spring Security pour la gestion des utilisateurs et l'authentification
@@ -45,7 +45,7 @@ Configurer la base de données :
 
     properties
 
-    spring.datasource.url=jdbc:mysql://localhost:3306/hotel_reservation
+    spring.datasource.url=jdbc:mysql://localhost:3306/clairdelune
     spring.datasource.username=YOUR_USERNAME
     spring.datasource.password=YOUR_PASSWORD
     spring.jpa.hibernate.ddl-auto=update
