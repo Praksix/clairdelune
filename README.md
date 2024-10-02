@@ -34,20 +34,20 @@ Prérequis
 
     bash
 
-git clone https://github.com/username/hotel-reservation-app.git
+git clone https://github.com/Praksix/clairdelune.git
 cd hotel-reservation-app
 
 Configurer la base de données :
 
-    Créer une base de données hotel_reservation dans MySQL.
+    Créer une base de données clairdelune dans MySQL.
 
     Mettre à jour les informations de connexion à la base de données dans le fichier src/main/resources/application.properties :
 
     properties
 
     spring.datasource.url=jdbc:mysql://localhost:3306/clairdelune
-    spring.datasource.username=YOUR_USERNAME
-    spring.datasource.password=YOUR_PASSWORD
+    spring.datasource.username=root
+    spring.datasource.password=
     spring.jpa.hibernate.ddl-auto=update
 
 Construire et exécuter l'application :
