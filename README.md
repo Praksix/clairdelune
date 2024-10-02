@@ -14,7 +14,7 @@ Fonctionnalités
 Technologies utilisées
 
     Backend : Java Spring (Spring Boot)
-    Frontend : Thymeleaf / Angular / React (selon ce que vous avez utilisé)
+    Frontend : HTML / CSS / Thymeleaf 
     Base de données : MySQL / PostgreSQL
     Outils de construction : Maven / Gradle
     Serveur d'application : Tomcat
@@ -23,10 +23,10 @@ Technologies utilisées
 Installation
 Prérequis
 
-    JDK 11+
-    Maven 3.6+ (ou Gradle)
-    MySQL (ou PostgreSQL)
-    IDE : IntelliJ IDEA, Eclipse ou VS Code
+    JDK 23
+    Maven 3.6+
+    MySQL
+    IDE : VS Code
 
 Étapes d'installation
 
